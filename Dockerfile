@@ -4,7 +4,7 @@ MAINTAINER Cédric Stanislas <nori971@gmail.com>
 
 LABEL Description="DevOps Tooling environnement" Version="0.2"
 
-ENV TERRAFORM_VERSION=0.12.3
+ENV TERRAFORM_VERSION=0.12.29
 # Alpine-based installation
 # #########################
 RUN apk add --update \

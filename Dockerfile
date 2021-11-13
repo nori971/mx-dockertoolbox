@@ -22,6 +22,7 @@ RUN apk add --update \
   linux-headers \
   dmidecode \
   bash \
+  openssh \
   && apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing git-crypt \
   && pip install --upgrade --no-cache-dir pip setuptools python-keystoneclient python-glanceclient python-novaclient python-openstackclient \
   && apk del gcc musl-dev linux-headers libffi-dev \
